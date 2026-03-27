@@ -1,0 +1,21 @@
+{
+  "name": "Codespaces C++ Starter",
+  "dockerFile": "Dockerfile",
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": { "version": "latest" }
+  },
+  "postCreateCommand": "sh -c \"$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)\" \"\" --unattended"
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "github.copilot"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "terminal.integrated.shell.linux": "/usr/bin/zsh"
+      }
+    }
+  }
+}
