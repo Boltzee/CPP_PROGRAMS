@@ -21,6 +21,7 @@ apt-get install -y \
   g++ \
   gdb \
   make \
+  stow \
   kitty-terminfo
 
 # Set locale
