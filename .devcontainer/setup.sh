@@ -22,6 +22,7 @@ apt-get install -y \
   gdb \
   make \
   stow \
+  locales \
   kitty-terminfo
 
 # Set locale
