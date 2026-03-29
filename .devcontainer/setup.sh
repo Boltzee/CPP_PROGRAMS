@@ -23,7 +23,12 @@ apt-get install -y \
   make \
   stow \
   locales \
+  software-properties-common \
   kitty-terminfo
+
+add-apt-repository -y ppa:zhangsongcui3371/fastfetch
+apt-get update
+apt-get install -y fastfetch
 
 # Set locale
 locale-gen en_US.UTF-8
