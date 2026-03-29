@@ -25,6 +25,7 @@ apt-get install -y \
   locales \
   software-properties-common \
   gpg \
+  unzip \
   kitty-terminfo
 
 # Install eza
